@@ -32,7 +32,7 @@ const Contact = () => {
 						viewport={{ once: false, amount: 0.3 }}
 						className="flex-1 border rounded-2xl border-black flex flex-col gap-y-6 pb-24 p-6 items-start"
 					>
-							<input type="hidden" name="access_key" value="66ed978e-db31-4ad8-b7a7-3e475845a23a">
+							<input type="hidden" name="access_key" value="66ed978e-db31-4ad8-b7a7-3e475845a23a"/>
 						<input
 							className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all"
 							type="text"
