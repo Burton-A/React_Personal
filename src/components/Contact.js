@@ -36,17 +36,20 @@ const Contact = () => {
 						<input
 							className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all"
 							type="text"
+							name="full_name"
 							placeholder="Your Name"
 							required
 						/>
 						<input
 							className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all"
 							type="text"
+							name="email"
 							placeholder="Your Email"
 							required
 						/>
 						<textarea
 							className="bg-transparent border-b py-12 outline-none w-full placeholder:text-black focus:border-accent transition-all resize-none mb-12"
+							name="message"
 							placeholder="Your Message"
 							required
 						></textarea>
