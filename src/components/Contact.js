@@ -24,7 +24,7 @@ const Contact = () => {
 						</div>
 					</motion.div>
 					<motion.form
-						action="https://formsubmit.co/ab74f5eee581ef1fa313d774156e04f9"
+						action="https://api.web3forms.com/submit"
 						method="POST"
 						variants={fadeIn('left', 0.3)}
 						initial="hidden"
@@ -32,6 +32,7 @@ const Contact = () => {
 						viewport={{ once: false, amount: 0.3 }}
 						className="flex-1 border rounded-2xl border-black flex flex-col gap-y-6 pb-24 p-6 items-start"
 					>
+							<input type="hidden" name="access_key" value="66ed978e-db31-4ad8-b7a7-3e475845a23a">
 						<input
 							className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all"
 							type="text"
@@ -49,7 +50,7 @@ const Contact = () => {
 							placeholder="Your Message"
 							required
 						></textarea>
-						<button className="btn btn-lg">Send Message</button>
+						<button type='submit' className="btn btn-lg">Send Message</button>
 					</motion.form>
 				</div>
 			</div>
