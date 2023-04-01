@@ -36,7 +36,7 @@ const Contact = () => {
 						<input
 							className="bg-transparent border-b py-3 outline-none w-full placeholder:text-black focus:border-accent transition-all"
 							type="text"
-							name="full_name"
+							name="Name"
 							placeholder="Your Name"
 							required
 						/>
