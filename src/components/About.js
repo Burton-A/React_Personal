@@ -38,11 +38,7 @@ const About = () => {
 							hearing from you!
 						</h3>
 						<div className="flex mb-12">
-							<div>
-								<div className="text-[40px] font-tertiary text-gradient mb-2">
-									{inView ? <CountUp start={0} end={13} duration={3} /> : null}
-								</div>
-							</div>
+							
 						</div>
 					</motion.div>
 				</div>
