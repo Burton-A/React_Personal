@@ -24,7 +24,7 @@ const Contact = () => {
 						</div>
 					</motion.div>
 					<motion.form
-						action="https://formsubmit.co/kacburton1@gmail.com"
+						action="https://formsubmit.co/ab74f5eee581ef1fa313d774156e04f9"
 						method="POST"
 						variants={fadeIn('left', 0.3)}
 						initial="hidden"
